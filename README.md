@@ -4,6 +4,10 @@ A retro Windows 98-themed random movie generator web app.
 
 Built with Flask and the TMDB API. Uses 98.css for the classic desktop look.
 
+## Screenshots
+![Landing Page](screnshots/2323.PNG)
+![Movie Result](screnshots/Capture5.PNG)
+
 ## Features
 - Random movie discovery from TMDB's popular movies
 - Windows 98 retro UI with starfield background
