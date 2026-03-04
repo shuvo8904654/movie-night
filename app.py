@@ -60,6 +60,10 @@ def create_app() -> Flask:
             
         except requests.RequestException:
             return abort(500, "Error fetching data from TMDB. Please check your API key and try again.")
+
+    @flask_app.route('/about')
+    def about():
+        return render_template('about.html')
         
     return flask_app
 
