@@ -109,6 +109,37 @@
             min-width: 85px;
             font-family: 'Pixelated MS Sans Serif', Arial;
         }
+
+        @media (max-width: 550px) {
+            body {
+                padding: 0;
+                align-items: flex-start;
+            }
+
+            .window {
+                max-width: none;
+                min-height: 100vh;
+                filter: none;
+            }
+
+            .movie-content {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .info-panel h3 {
+                text-align: center;
+            }
+
+            .poster-container {
+                width: 140px;
+            }
+
+            .btn-group {
+                margin-top: auto;
+            }
+        }
     </style>
 </head>
 
